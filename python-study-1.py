@@ -95,26 +95,24 @@
 
 # Cтворити змінну dict_test = {'car': 'Toyota', 'price': 4900, 'where': 'EU'} та вивести на екран дані, які знаходяться в ключах car та where
 
-dict_test = {"car": "Toyota", "price": 4900, "where": "EU"}
-print(dict_test["car"])
-print(dict_test["where"])
+
 
 # Метод keys() повертає лише список ключів словника, але для доступу до значень краще використовувати синтаксис dict_test['ключ']
 
-dict_test_keys = dict_test.keys()
-print(dict_test_keys)
+# dict_test_keys = dict_test.keys()
+# print(dict_test_keys)
 
 # Метод values() повертає лише список значень, але для доступу до значень краще використовувати синтаксис dict_test['значення']
 
-dict_test_values = dict_test.values()
-print(dict_test_values)
+# dict_test_values = dict_test.values()
+# print(dict_test_values)
 
 # потрібно вивести всі значення зі словника dict_test через рядок, можна використати метод values() разом із функцією join().
 
-values_as_string = ", ".join(map(str, dict_test_values))
-print(values_as_string)
+# values_as_string = ", ".join(map(str, dict_test_values))
+# print(values_as_string)
 
 # За допомогою функції items() вивести на екран пари ключ - значення
 
-dict_test_items = dict_test.items()
-print(dict_test_items)
+# dict_test_items = dict_test.items()
+# print(dict_test_items)
